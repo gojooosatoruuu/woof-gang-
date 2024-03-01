@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woof Gang</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Florist Tita <span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="product.html">Products</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#icons-container" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+            
+        </div>
+    </header>
+     <!--Header section ends-->
+
+     <!--Cart page starts-->
+<div class="small-container cart-page">
+  <table>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+    <!-- JavaScript code will dynamically populate this table based on the cart items -->
+  </table>
+
+  <div class="total-price">
+    <table>
+      <tr>
+        <td>Total</td>
+        <td id="subtotal">₱0</td>
+      </tr>
+      <tr>
+        <td>Shipping Fee</td>
+        <td>₱100</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td id="total">₱0</td>
+      </tr>
+    </table>
+  </div>
+  <button onclick="checkout()" class="btn checkout-btn">Checkout</button>
+</div>
+    
+
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+        </div>
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorites</a>
+        </div>
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">Philippine</a>
+            <a href="#">Luisina, Laguna</a>
+            <a href="#">Lopez, Quezon</a>
+            <a href="#">Lucena City</a>
+            <a href="#">Tanza,Cavite</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">09637955972</a>
+            <a href="#">jasminesurio12@gmail.com</a>
+            <a href="#">Magsaysay Salumbides Street Lopez, Quezon</a>
+          <img src="/images/payment.png" alt="">
+       
+        </div>
+    </div>
+    <div class="credit">
+        &copy; Created by <span>Jasmine x Gojo</span> All Right Reserved.
+    </div>
+    <!-- js -->
+    <script>
+
+    </script>
+</body>
+</html>
